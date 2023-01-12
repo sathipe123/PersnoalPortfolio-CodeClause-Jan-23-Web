@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil Poftfolio</title>
+    <link rel="shortcut icon" href="./assets/img/favicon-300x287.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/0aa3bfc3c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+                
+            </nav>
+            <div class="header-text">
+                <h1>hi, I am <span>Sahil Thipe</span></h1>
+                <p>I'm a <span>Ui Developer Enthusiastic</span> </p>
+            </div>
+        </div>
+    </div>
+<!----------------------------ABOUT------------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./assets/img/photo.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Enthusiastic bachelor's graduate with basic knowledge in coding and design.
+                        Proficient in HTML, CSS, Bootstrap, JavaScript, and MongoDB. 
+                        Ability to learn new softwares and technologies quickly.
+                        Capability to work in teams by providing valuable support.
+                    </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link"  onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"  onclick="opentab('education')">Education</p>
+                        </div>
+                        
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Desiging Web interfaces</li>
+                                <li><span>Web Technologies</span><br>HTML,&nbsp;CSS,&nbsp;JavaScript,&nbsp;BootStarp,&nbsp;jQuery</li>
+                                <li><span>Database</span><br>MongoDB</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>BCCA, Bachelor's of Commrce Computer 
+                                    Application</span><br>G H Raisoni college Of Commrce & Science
+                                    Technology, Nagpur<br>05/2018 - 08/2021</li>
+                                <li><span>HSC</span><br>Shri Parbhu Ramchandra Jr. College of Science, Nandafata (Gadchandur)
+                                    <br>05/2015 - 04/2017</li>
+                                <li><span>SSC</span><br>Mahatma Gandhi Vidhyalay, Gadchandur
+                                        <br> 03/2015</li>
+                            </ul>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------------PORTFOLIO---------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src=".//assets/img/work 1.jpg">
+                    <div class="layer">
+                        <h3>Movie Ticket</h3>
+                        <p>Online Movie Ticket Booking Sysytem Using HTML,&nbsp;CSS,&nbsp;JS,&nbsp;BOOTSTRAP</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src=".//assets/img/work 2.png">
+                    <div class="layer">
+                        <h3>Amazon Prime Clone</h3>
+                        <p>Prime Clone Website Design using HTML and CSS.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/img/work 3.jpg">
+                    <div class="layer">
+                        <h3>BMI Calculator</h3>
+                        <p>Website (Using Html,&nbsp;CSS and JavaScript) to calculat Body Mass Index (BMI).</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------------CONTACT---------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Sahilathipe@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7741969328</p>
+                    <p><i class="fa-solid fa-home"></i>At Post Lakhamapur ward no.3 <br>Tah-Korpana Dist-Chandrapur <br>Maharashtra, Pincode- 442908</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sahil-thipe/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sathipe123"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/thipe_sahil_06/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/sahil.thipe"><i class="fa fa-facebook"></i></a>
+                        <a href="tel:+91 7741969328"><i class="fa fa-square-phone"></i></a>
+                    </div>
+                    <a class="btn btn2 btn-primary btn-lg" href="./assets/pdf/SAHIL_RESUME.pdf" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="Contact-Us">
+                        <input type="email" name="EMAIL"  placeholder="Your Email" required>
+                        <input type="text" name="NAME" id="name" placeholder="Your Name" required>
+                        <textarea name="MASSEGE" rows="6" id="message" placeholder="Your Meaasage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ SahilThipe 2022</p>
+        </div>
+    </div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }    
+      
+          const scriptURL = 'https://script.google.com/macros/s/AKfycbziFuByhnaKRPG-Izbnt8d4MUr-CWRYQpyulQUz02vozdoTkWN39UadvxAzxTxTE_hzFg/exec'
+          const form = document.forms['Contact-Us']
+
+            form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        
+            .then(response => {
+            form.reset()
+            console.log('Success!', response)
+            })
+           .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
